@@ -121,7 +121,7 @@ for (const child of foo.children) {
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"L2");
+                  addText(note.children[0].children[0],"ZL");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -129,7 +129,7 @@ for (const child of foo.children) {
               case 2:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"R2");
+                  addText(note.children[0].children[0],"ZR");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -137,7 +137,7 @@ for (const child of foo.children) {
               case 3:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"D▼");
+                  addText(note.children[0].children[0],"▼");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -145,7 +145,7 @@ for (const child of foo.children) {
               case 4:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"X");
+                  addText(note.children[0].children[0],"B");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -153,7 +153,7 @@ for (const child of foo.children) {
               case 5:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"D◀");
+                  addText(note.children[0].children[0],"◀");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -168,7 +168,7 @@ for (const child of foo.children) {
               case 1:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"□");
+                  addText(note.children[0].children[0],"Y");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -176,7 +176,7 @@ for (const child of foo.children) {
               case 2:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"D▲");
+                  addText(note.children[0].children[0],"▲");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -187,7 +187,7 @@ for (const child of foo.children) {
                   //console.log(note.children[0].children[1]);
                   note.children[0].removeChild(note.children[0].children[1]);
                   //console.log("WRITING");
-                  addText(note.children[0].children[0],"△");
+                  addText(note.children[0].children[0],"X");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -195,7 +195,7 @@ for (const child of foo.children) {
               case 4:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"D▶");
+                  addText(note.children[0].children[0],"▶");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -203,7 +203,7 @@ for (const child of foo.children) {
               case 5:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"○");
+                  addText(note.children[0].children[0],"A");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -218,7 +218,7 @@ for (const child of foo.children) {
               case 1:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"L1");
+                  addText(note.children[0].children[0],"L");
                 } catch(err){
                   console.log(err.message);
                 }
@@ -226,7 +226,7 @@ for (const child of foo.children) {
               case 2:
                 try{
                   note.children[0].removeChild(note.children[0].children[1]);
-                  addText(note.children[0].children[0],"R1");
+                  addText(note.children[0].children[0],"R");
                 } catch(err){
                   console.log(err.message);
                 }
