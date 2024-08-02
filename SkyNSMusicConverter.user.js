@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        New script - sky-music.github.io
+// @name        NS Controller Script - sky-music.github.io
 // @namespace   Violentmonkey Scripts
 // @match       https://sky-music.github.io/songs/*
 // @grant       none
 // @version     1.0
-// @author      -
-// @description 5/2/2023, 8:23:23 PM
+// @author      Marianbc
+// @description A script to show Nintendo Switch controller bindings on sky-music.github.io (modified for switch by Anton.exe)
 // ==/UserScript==
 
 function htmlToElement(html) {
@@ -52,31 +52,31 @@ function addText(p, txt)
 
 /*
 <tr>
-<td>L2
+<td>ZL
 </td>
-<td>R2
+<td>ZR
 </td>
-<td>D▼
+<td>▼
 </td>
-<td>×
+<td>B
 </td>
-<td>D◀
+<td>◀
 </td></tr>
 <tr>
-<td>□
+<td>Y
 </td>
-<td>D▲
+<td>▲
 </td>
-<td>△
+<td>X
 </td>
-<td>D▶
+<td>▶
 </td>
-<td>○
+<td>A
 </td></tr>
 <tr>
-<td>L1
+<td>L
 </td>
-<td>R1
+<td>R
 </td>
 <td>L◀
 </td>
